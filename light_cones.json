@@ -1,0 +1,29 @@
+
+{
+  "SunsetDance": {
+    "id": "SunsetDance",
+    "name": "落日时起舞",
+    "path": "Destruction",
+    "rarity": 5,
+
+    "level": 80,
+    "superimpose": 1,
+
+    "base_stats": {
+      "hp": 952,
+      "atk": 529,
+      "def": 496,
+      "crit_dmg": 0.36
+    },
+
+    "effect": {
+      "name": "沉酣",
+      "description": "使装备者受到攻击的概率大幅提高，暴击伤害提高36%。施放终结技后获得1层【火舞】，持续2回合，最多叠加2层；每层【火舞】使追加攻击造成的伤害提高36%。",
+      "taunt_multiplier": 2.0,
+      "crit_dmg_bonus": [0.36, 0.42, 0.48, 0.54, 0.60],
+      "followup_dmg_bonus_per_stack": [0.36, 0.42, 0.48, 0.54, 0.60],
+      "max_fire_dance_stacks": 2,
+      "duration_turns": 2
+    }
+  }
+}

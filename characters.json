@@ -1,0 +1,99 @@
+
+{
+  "Yunli": {
+    "id": "Yunli",
+    "name": "云璃",
+    "path": "Destruction",
+    "element": "Physical",
+
+    "level": 80,
+    "eidolon": 0,
+
+    "base_stats": {
+      "hp": 1358,
+      "atk": 679,
+      "def": 460,
+      "speed": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.50,
+      "energy_max": 240
+    },
+
+    "trace_bonuses": {
+      "atk_pct": 0.28,
+      "hp_pct": 0.18,
+      "crit_rate": 0.067
+    },
+
+    "skills": {
+      "basic": {
+        "id": "basic_attack",
+        "name": "翻风转日",
+        "type": "basic",
+        "sp_change": 1,
+        "energy_gain": 20,
+        "hit_type": "single",
+        "multiplier": 1.0
+      },
+      "skill": {
+        "id": "skill",
+        "name": "飞铗震赫",
+        "type": "skill",
+        "sp_change": -1,
+        "energy_gain": 30,
+        "hit_type": "aoe_split",
+        "multiplier_main": 1.2,
+        "multiplier_adjacent": 0.6,
+        "self_heal": {
+          "hp_pct_from_atk": 0.30,
+          "flat": 200
+        }
+      },
+      "ultimate": {
+        "id": "ultimate",
+        "name": "剑为薪火",
+        "type": "ultimate",
+        "energy_cost": 240,
+        "hit_type": "aoe_plus_followups",
+        "multiplier_main": 2.2,
+        "multiplier_adjacent": 1.1,
+        "followup_times": 6,
+        "followup_multiplier": 0.72,
+        "enter_block_state": true
+      },
+      "talent": {
+        "id": "talent",
+        "name": "闪烁",
+        "type": "follow_up",
+        "energy_gain_on_hit": 15,
+        "trigger_on_hit": true,
+        "hit_type": "aoe_split",
+        "multiplier_main": 1.32,
+        "multiplier_adjacent": 0.66
+      },
+      "technique": {
+        "id": "technique",
+        "name": "后发先至",
+        "type": "field",
+        "extra_opening_followup": true
+      }
+    },
+
+    "extra_abilities": {
+      "A2": {
+        "id": "zhuohu",
+        "effect": "每发动1次〖勘破·斩〗后，下一次〖勘破·斩〗替换为〖勘破·灭〗"
+      },
+      "A4": {
+        "id": "quexie",
+        "effect": "格挡状态下抵抗控制并降低所受伤害20%"
+      },
+      "A6": {
+        "id": "zhengang",
+        "effect": "施放反击时攻击力提高30%，1回合"
+      }
+    }
+  }
+}
+
+

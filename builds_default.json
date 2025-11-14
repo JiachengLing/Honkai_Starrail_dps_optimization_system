@@ -1,0 +1,26 @@
+{
+  "Yunli_default": {
+    "character_id": "Yunli",
+    "level": 80,
+    "eidolon": 0,
+    "traces_maxed": true,
+
+    "light_cone": {
+      "id": "SunsetDance",
+      "level": 80,
+      "superimpose": 1
+    },
+
+    "relics": {
+      "set_main": "勇烈不朽的拳王",
+      "set_planar": "停转的萨尔索图",
+      "main_stats": {
+        "body": "crit_rate",
+        "feet": "atk_pct",
+        "sphere": "physical_dmg",
+        "rope": "energy_regen"
+      },
+      "sub_stats_hint": ["crit_rate", "crit_dmg", "atk_pct", "break_eff"]
+    }
+  }
+}
